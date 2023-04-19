@@ -1,0 +1,16 @@
+a=int(input('enter a num'))
+b=int(input('enter a num'))
+c=int(input('enter a num'))
+if a>b:
+    temp=a
+    a=b
+    b=temp
+if b>c:
+    temp=b
+    b=c
+    c=temp
+if a>c:
+    temp=c
+    c=a
+    a=temp
+print(a,b,c)
